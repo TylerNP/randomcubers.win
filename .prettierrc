@@ -1,0 +1,9 @@
+{
+	"plugins": ["prettier-plugin-brace-style"],
+	"braceStyle": "1tbs",
+	"bracketSpacing": false,
+	"tabWidth": 4,
+	"bracketSameLine": false,
+	"useTabs": true,
+	"arrowParens": "always"
+}
