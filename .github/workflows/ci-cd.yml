@@ -18,7 +18,7 @@ jobs:
       - name: Build frontend
         run: npm run buildfront
       - name: Build & Deploy Worker
-        uses: cloudflare/wrangler-action@v4
+        uses: cloudflare/wrangler-action@v3.9
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
