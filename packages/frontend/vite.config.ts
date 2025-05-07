@@ -10,11 +10,11 @@ export default defineConfig({
     lib: {
       entry: 'src/main.tsx',   // or app.tsx depending on your entry
       formats: ['es'],
-      fileName: () => 'worker.js',
+      fileName: () => 'index.js',
     },
     rollupOptions: {
       output: {
-        entryFileNames: 'worker.js',
+        entryFileNames: 'index.js',
         manualChunks: undefined,
       },
     },
